@@ -1,0 +1,6 @@
+:root {
+    --cor-principal: hsl(216, 12%, 8%);
+    --cor-secundaria: hsl(213, 19%, 18%);
+    --cor-destaque: hsl(25, 97%, 53%);
+    --cor-do-texto:  hsl(217, 12%, 63%);
+}

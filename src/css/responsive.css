@@ -1,0 +1,51 @@
+@media (max-width: 360px) {
+    .container .conteudos {
+        width: 90%;
+        height: 70%;
+    }
+
+    .container .card-classificacao .titulo {
+        font-size: 20px;
+    }
+
+    .container .card-classificacao .classificacao .btn-nota {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+
+    .container .card-classificacao .btn-enviar {
+        height: 10%;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container .conteudos {
+        width: 90%;
+        height: 70%;
+    }
+
+    .container .card-classificacao .titulo {
+        font-size: 18px;
+    }
+
+    .container .card-classificacao .classificacao .btn-nota {
+        width: 25px;
+        height: 25px;
+    }
+
+    .container .card-classificacao .btn-enviar {
+        height: 10%;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 992px) { 
+    .container .conteudos {
+        width: 90%;
+        height: 70%;
+    }
+ }

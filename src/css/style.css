@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    color: #fff;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column; 
+    height: 100%;
+}
+
+.container .conteudos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 65%;
+    background-color: var(--cor-secundaria);
+    border-radius: 30px;
+    padding: 40px;
+    gap: 25px;
+}
+
+.container .card-classificacao .titulo {
+    font-size: 30px;
+}
+
+.container .card-classificacao .texto {
+    color: var(--cor-do-texto);
+    font-size: 15px;
+}
+
+.container .imagem-estrela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--cor-secundaria);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.container .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .card-classificacao .classificacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container .card-classificacao .classificacao .btn-nota {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: hsl(213, 19%, 18%);
+    color: var(--cor-do-texto);
+    font-weight: 700;
+    transition: 0.4s;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.container .card-classificacao .classificacao .btn-nota:hover {
+    background-color: var(--cor-destaque);
+    color: #000;
+}
+
+.container .card-classificacao .btn-enviar {
+    height: 15%;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: var(--cor-destaque);
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.container .card-classificacao .btn-enviar:hover {
+    background-color: #fff;
+}
+
+.container .agradecimento .imagem-agradecimento {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .agradecimento .conteudo .nota-escolhida {
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    color: var(--cor-destaque);
+    font-weight: 200;
+}
+
+.container .agradecimento .conteudo-agradecimento {
+    text-align: center;
+}
+
+.conteudos.ocultar {
+    display: none;
+}
+
+.container .card-classificacao .classificacao .selecionada {
+    background-color: #fff;
+    color: #000;
+}
+
+
