@@ -1,7 +1,7 @@
 @media (max-width: 460px) {
     .container .conteudos {
         width: 90%;
-        height: 50%;
+        height: 30%;
     }
 
     .container .card-classificacao .titulo {
