@@ -1,7 +1,7 @@
-@media (max-width: 560px) {
+@media (max-width: 460px) {
     .container .conteudos {
         width: 90%;
-        height: 70%;
+        height: 50%;
     }
 
     .container .card-classificacao .titulo {
@@ -9,8 +9,8 @@
     }
 
     .container .card-classificacao .classificacao .btn-nota {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         border-radius: 100%;
     }
 
@@ -24,16 +24,25 @@
 @media (max-width: 320px) {
     .container .conteudos {
         width: 90%;
-        height: 70%;
+        height: 80%;
+    }
+
+    .container .imagem-estrela {
+        width: 35px;
+        height: 35px;
     }
 
     .container .card-classificacao .titulo {
         font-size: 18px;
     }
 
+    .container .card-classificacao .texto {
+        font-size: 15px;
+    }
+
     .container .card-classificacao .classificacao .btn-nota {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 
     .container .card-classificacao .btn-enviar {
